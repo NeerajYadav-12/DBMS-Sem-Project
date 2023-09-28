@@ -1,0 +1,195 @@
+
+  html{
+    font-size: 62.5%;
+  }
+  *{
+    box-sizing: border-box;
+  }
+  body{
+    height: 100vh;
+    margin:0rem;
+    padding: 0rem;
+    background-color:rgb(134, 128, 134);
+  }
+  
+  
+  
+  /* login and register */
+  .join-container h1{
+    color: black;
+  }
+  
+  .join-container a{
+    color: #131576;
+    font-size: medium;
+  }
+  
+  .join-container{
+    background-color: white;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 40rem;
+    min-height: 45rem;
+    text-align: center;
+    border: 2px solid blanchedalmond;
+  }
+  .join-username,.join-button{
+     margin-top:1.5rem;
+     padding: 0.4rem;
+  }
+  
+  .join-container input,.join-container button{
+    width: 80%;
+    height: 3rem;
+    border-style: solid;
+    background-color:rgb(13, 7, 7);
+    color: rgb(245, 239, 239);
+  }
+  .already{
+    color:rgb(52, 97, 101);
+    font-size: 1.4rem;
+    margin: 1rem;
+  }
+  .already a{
+    text-decoration: none;;
+  }
+
+
+  /*main page*/
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  a:hover{
+    color: red;
+  }
+
+.app{
+  height: 100vh;
+  
+}
+.fixing{
+  position: sticky;
+  top: -6rem;
+}
+.header{
+  height: 8vh;
+  display: flex;
+  background-color: bisque;
+}
+.logo{
+  flex: 20%;
+  font-size: 1.5rem;
+  align-items: center;
+}
+.logo img{
+  height: 6rem;
+  width: 13rem;
+}
+.log-details{
+  flex: 50%;
+  display: flex;
+  align-items: center;
+}
+.log-details a{
+  flex: 15%;
+  display: block;
+  margin: 0.5rem;
+  padding: 0.3rem;
+  text-decoration:none;
+  font-size: 1.8rem;
+  text-align: center;
+}
+.admin{
+  flex: 80%;
+  text-align: center;
+}
+.admin a{
+  width: 20%;
+  text-align: end;
+  margin-right: 3rem;
+}
+
+
+.searchbar{
+  flex:30% ;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.searchbar input,.searchbar button{
+ height: 60%;
+}
+.searchbar input{
+  width: 80%;
+}
+.searchbar button{
+  width: 20%;
+}
+
+.navbar{
+  height: 7vh;
+  margin: 0rem;
+  padding: 0rem;
+  background-color: rgb(238, 214, 183);
+  display: flex;
+}
+.navbar ul{
+  flex: 85%;
+  height: 100%;
+  list-style-type:none;
+  display: flex;
+  padding: 0rem;
+  margin: 0rem;
+  align-items: center;
+}
+.account{
+  flex: 15%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+
+}
+.account a{
+  text-decoration: none;
+  font-size: 1.6rem;
+  margin-right: 1rem;
+
+}
+
+.navbar li{
+  display: block;
+  margin: 1.2rem;
+  font-size: 1.5rem;
+  align-items: center;
+}
+.main{
+  height: 140vh;
+  background-image: url("./images/main.webp");
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+}
+.footer{
+  height: 8vh;
+  text-align: center;
+  background-color: rgb(180, 190, 142);
+}
+.footer ul{
+  list-style-type: none;
+  display: flex;
+  font-size: 1rem;
+  justify-content: center;
+}
+.footer p{
+  margin: 0.1rem;
+}
+.footer li{
+  display: block;
+  margin: 0.3rem;
+  padding: 0rem;
+  align-items: center;
+  font-size: 1.6rem;
+  color: rgb(235, 226, 226);
+}

@@ -1,0 +1,123 @@
+html{
+    font-size: 62.5%;
+  }
+  *{
+    box-sizing: border-box;
+  }
+  body{
+    height: 100vh;
+    margin:0rem;
+    padding: 0rem;
+  }
+  
+  
+  
+  /* login */
+  .join-container h1{
+    color: black;
+  }
+  
+  .join-container a{
+    color: #131576;
+    font-size: medium;
+  }
+  
+  .join-container{
+    background-color: white;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 40rem;
+    min-height: 30rem;
+    text-align: center;
+    border: 2px solid blanchedalmond;
+  }
+  .join-username,.join-button{
+     margin-top:1.5rem;
+     padding: 0.4rem;
+  }
+  
+  .join-container input,.join-container button{
+    width: 80%;
+    height: 3rem;
+    border-style: solid;
+    background-color:rgb(13, 7, 7);
+    color: rgb(245, 239, 239);
+  }
+  .join-container button{
+    color: white;
+    font-size: large;
+    height: 5rem;
+    background-color: rgb(87, 149, 87);
+  }
+  .errormsg{
+    color: red;
+  }
+  
+
+  /*main page*/
+
+header{
+    height:10%;
+    display: flex;
+    background-color: #333;
+    color: #fff;
+  }
+  .logo{
+    flex: 17%;
+    font-size: 1.5rem;
+    align-items: center;
+  }
+  .logo img{
+    height:100%;
+    width: 13rem;
+  }
+  .welcome{
+    flex: 83%;
+    display: flex;
+    align-items: center;
+  }
+  .welcomea{
+    flex: 80%;
+  }
+  .logout{
+    flex: 20%;
+    text-align: right;
+    font-size: 2rem;
+  }
+  .logout a{
+    color: white;
+    text-decoration: none;
+  }
+.logout a:hover {
+    color: #d1cece;
+}
+
+
+.sidebar {
+    height:90%;
+    width: 250px;
+    position: fixed;
+    top: 10%;
+    left: 0;
+    background-color: #555;
+    padding-top: 20px;
+}
+
+.sidebar a {
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    display: block;
+}
+
+.sidebar a:hover {
+    background-color: #777;
+}
+
+.content {
+    margin-left: 250px;
+    padding: 20px;
+}
